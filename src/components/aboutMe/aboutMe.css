@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.aboutMe{
+  background-color: rgba(30, 30, 30, 1);
+  width: 1355px;
+  height: 87vh;
+  color: white;
+  margin-top: -80px;
+  overflow: hidden;
+  padding-left: 150px;
+  padding-top: 100px;
+  ul{
+    list-style: none;
+    padding: 10px;
+    li{
+      color: #FFF;
+      font-size: 21px;
+      margin-bottom: 10px;
+      transition: color 1s;
+      display: flex;
+      align-items: center; 
+      gap: 5px;
+    }
+    .foolAboutMe{
+      display: flex;
+      gap: 130px;
+    }
+    .rightAboutMe{
+      width: 500px;
+    }
+    .leftAboutMe{
+      margin-left: 0px;
+    }
+    .center{
+      margin-left: 370px;
+      margin-top: 30px;
+    }
+  }
+  .myPhoto{
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: -500px;
+    margin-left: 570px;
+    border: 5px solid #FD6F00;
+    /* border-top: 5px solid #FD6F00; */
+  }
+ 
+}
+
+.aboutMe.light {
+  background-color: #f1f1f1;
+  
+  color: #000;
+  li{
+    color: #000;
+  }
+}
+
+.aboutMe.dark {
+  background-color: rgba(30, 30, 30, 1);
+  color: #fff;
+}
+
+@media (max-width: 430px) {
+  .aboutMe{
+    background-color: rgba(30, 30, 30, 1);
+    width: 100%;
+    height: auto;
+    color: white;
+    margin-top: -70px;
+    overflow: hidden;
+    padding-left: 0px;
+    padding-top: 70px;
+    ul{
+      list-style: none;
+      padding: 10px;
+      li{
+        color: #FFF;
+        font-size: 16px;
+        margin-bottom: 10px;
+        transition: color 1s;
+        display: flex;
+        align-items: start; 
+        gap: 5px;
+      }
+      .foolAboutMe{
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        gap: 50px;
+      }
+      .rightAboutMe{
+        width: 360px;
+      }
+      .leftAboutMe{
+        margin-left: 0px;
+      }
+      .center{
+        margin-left: 0px;
+        margin-top: 45px;
+        margin-bottom: 50px;
+     
+      }
+    }
+    .myPhoto{
+      width: 400px;
+      height: 400px;
+      background-color: #fff;
+      border-radius: 50%;
+      margin-top: -500px;
+      margin-left: 570px;
+      border: 5px solid #FD6F00;
+      /* border-top: 5px solid #FD6F00; */
+    }
+   
+  }
+
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+
+  .aboutMe{
+    background-color: rgba(30, 30, 30, 1);
+    width: 1355px;
+    height: auto;
+    color: white;
+    margin-top: 25px;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-top: 120px;
+    ul{
+      list-style: none;
+      padding: 10px;
+      li{
+        color: #FFF;
+        font-size: 17px;
+        margin-bottom: 10px;
+        transition: color 1s;
+        display: flex;
+        align-items: center; 
+        gap: 5px;
+      }
+      .foolAboutMe{
+        display: flex;
+        gap: 10px;
+      }
+      .rightAboutMe{
+        width: 400px;
+      }
+      .leftAboutMe{
+        margin-left: 0px;
+      }
+      .center{
+        margin-left: 250px;
+        margin-top: 30px;
+      }
+    }
+    .myPhoto{
+      width: 400px;
+      height: 400px;
+      background-color: #fff;
+      border-radius: 50%;
+      margin-top: -500px;
+      margin-left: 570px;
+      border: 5px solid #FD6F00;
+      /* border-top: 5px solid #FD6F00; */
+    }
+   
+  }
+}

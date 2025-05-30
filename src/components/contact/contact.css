@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.contact.light {
+  color: #000;
+
+    background-color: #f1f1f1; 
+  
+}
+.contact.dark {
+  background-color: rgba(30, 30, 30, 1);
+  color: #fff;
+  
+ 
+} 
+@media (max-width: 430px){
+  .formss{
+    margin-left: -970px;
+    transform: scale(0.8);
+  }
+}
+@media (min-width: 600px) and (max-width: 1024px){
+  .formss{
+    margin-left: -570px;
+    transform: scale(1.3);
+  }
+}
