@@ -54,7 +54,7 @@ function Main(){
       marginTop: "-122px",
       marginLeft: "-5px",
     }} src={myimg} alt="myimg" /></div>
-    <StyledWrapper>
+   <div className='behruz'> <StyledWrapper>
       <div className="card">
         <ul>
           <li className="iso-pro">
@@ -90,7 +90,7 @@ function Main(){
           </li>
         </ul>
       </div>
-    </StyledWrapper>
+    </StyledWrapper></div>
     <button
       onClick={scrollToTop}
       className="fixed bottom-4 right-4 bg-blue-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-blue-600 transition"

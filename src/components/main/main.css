@@ -402,6 +402,10 @@ main{
       /* border-top: 5px solid #FD6F00; */
       display: none;
     }
+    .behruz{
+      display: none;
+      
+    }
     .box{
       display: flex;
       padding-top: 70px;
